@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T07:32:29.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="OoQ32pHQ8lRx_ydXR2_N" version="15.5.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-28T08:15:57.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="pyboZZbBViRduJyUcCOE" version="15.5.6" type="github" pages="3">
   <diagram id="ucuf47rn4hHFeamfxZHP" name="对账模型">
     <mxGraphModel dx="2829" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -229,10 +229,49 @@
     </mxGraphModel>
   </diagram>
   <diagram id="A7sXLd5VSdtiiXB5vOug" name="对账流程">
-    <mxGraphModel dx="2002" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1787" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="vh0FaoTreXPwP_lNgPpI-0" />
         <mxCell id="vh0FaoTreXPwP_lNgPpI-1" parent="vh0FaoTreXPwP_lNgPpI-0" />
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-3" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-0" target="TjuPf9bAg7yqMnMI0o1G-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-0" value="平台数据拉取&amp;amp;清洗" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry x="170" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-1" target="TjuPf9bAg7yqMnMI0o1G-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-1" value="&lt;span&gt;三数据拉取/导入&amp;amp;清洗&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry x="560" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-9" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-2" target="TjuPf9bAg7yqMnMI0o1G-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-2" value="生成标准平台账单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry x="170" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-11" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-4" target="TjuPf9bAg7yqMnMI0o1G-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-4" value="&lt;span&gt;生成标准三方账单&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry x="560" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-6" value="" style="shape=link;html=1;rounded=0;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="60" y="280" as="sourcePoint" />
+            <mxPoint x="820" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-8" value="加载账单到reids" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry x="170" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-10" value="加载账单到reids" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry x="560" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-13" value="加载所有平台号到set集合&lt;br&gt;以平台号为key，金额等信息为value放入map" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry x="310" y="290" width="250" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
