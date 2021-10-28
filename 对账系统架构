@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T06:42:26.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="IUBtx5x-sMY2q42ASjVr" version="15.5.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-28T06:45:53.406Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="0lVQbKCUxQREheNXKdNt" version="15.5.6" type="github" pages="2">
   <diagram id="ucuf47rn4hHFeamfxZHP" name="Page-1">
     <mxGraphModel dx="2377" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZNX6UTNXjEtMFALX60S7-25" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-16" y="400" width="860" height="390" as="geometry" />
+          <mxGeometry x="-16" y="400" width="860" height="330" as="geometry" />
         </mxCell>
         <mxCell id="ZNX6UTNXjEtMFALX60S7-27" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-16" y="50" width="860" height="300" as="geometry" />
@@ -96,13 +96,33 @@
           <mxGeometry x="250" y="585" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZNX6UTNXjEtMFALX60S7-20" value="对账汇总" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="474" y="585" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZNX6UTNXjEtMFALX60S7-28" value="数据准备&amp;amp;清洗" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="670" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZNX6UTNXjEtMFALX60S7-29" value="数据核对" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="670" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wyHUPl291vwL9kbPSHwH-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-16" y="790" width="860" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="wyHUPl291vwL9kbPSHwH-2" value="差异处理" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="660" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wyHUPl291vwL9kbPSHwH-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="wyHUPl291vwL9kbPSHwH-3" target="ZNX6UTNXjEtMFALX60S7-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wyHUPl291vwL9kbPSHwH-3" value="单边问题补偿" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wyHUPl291vwL9kbPSHwH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wyHUPl291vwL9kbPSHwH-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wyHUPl291vwL9kbPSHwH-4" value="错账人工处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="860" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
