@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T10:44:50.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="yhOBMBMKDBX7XHxXtYRE" version="15.5.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-28T10:48:34.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="W2tHHuxQ3jU2TA3Edl1l" version="15.5.6" type="github" pages="4">
   <diagram id="ucuf47rn4hHFeamfxZHP" name="对账模型">
     <mxGraphModel dx="2374" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -523,8 +523,8 @@
         <mxCell id="N1KxwEdsiyuxxJDuKXub-14" value="加载账单到reids" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
           <mxGeometry x="560" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N1KxwEdsiyuxxJDuKXub-15" value="加载所有平台号到set集合，记为set&lt;br&gt;以平台号为key，金额等信息为value放入map，&lt;br&gt;与标准流程不同这里可能存在多个相同key,此时将金额汇总" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
-          <mxGeometry x="80" y="390" width="320" height="50" as="geometry" />
+        <mxCell id="N1KxwEdsiyuxxJDuKXub-15" value="1.加载所有平台号到set集合，记为set&lt;br&gt;2.以平台号为key，金额等信息为value放入map，&lt;br&gt;与标准流程不同这里可能存在多个相同key,此时将金额汇总&lt;br&gt;3.将汇总单号包含的记录id放入redis,以备更新标准账单和历史差异使用&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
+          <mxGeometry x="80" y="385" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N1KxwEdsiyuxxJDuKXub-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="N1KxwEdsiyuxxJDuKXub-20" target="N1KxwEdsiyuxxJDuKXub-23">
           <mxGeometry relative="1" as="geometry">
