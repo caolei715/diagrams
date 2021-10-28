@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T10:44:15.980Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Rj0dPhKIzyZA5m4YdfxO" version="15.5.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-28T10:44:50.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="yhOBMBMKDBX7XHxXtYRE" version="15.5.6" type="github" pages="4">
   <diagram id="ucuf47rn4hHFeamfxZHP" name="对账模型">
     <mxGraphModel dx="2374" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -613,8 +613,10 @@
         <mxCell id="N1KxwEdsiyuxxJDuKXub-38" value="yes" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="N1KxwEdsiyuxxJDuKXub-40" target="N1KxwEdsiyuxxJDuKXub-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LQr_x0nV5bYWpLYIs25t-1" value="no" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="N1KxwEdsiyuxxJDuKXub-40" target="LQr_x0nV5bYWpLYIs25t-0">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="LQr_x0nV5bYWpLYIs25t-1" value="no" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="N1KxwEdsiyuxxJDuKXub-40" target="N1KxwEdsiyuxxJDuKXub-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1512.27" y="890" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="N1KxwEdsiyuxxJDuKXub-40" value="一致？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
           <mxGeometry x="1372.27" y="850" width="80" height="80" as="geometry" />
@@ -711,9 +713,6 @@
         </mxCell>
         <mxCell id="jqZL71ooTwniAat9-GYG-0" value="更新标准账单为已核对" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF3333;align=left;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
           <mxGeometry x="680" y="1340" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LQr_x0nV5bYWpLYIs25t-0" value="写入明细平台单边，同时写入差异池" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
-          <mxGeometry x="1512.27" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mbIL7LEl2hRPX14TXV64-0" value="更新差异池为日切对平，此处更新的可能是多条" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
           <mxGeometry x="1152.27" y="560" width="120" height="60" as="geometry" />
