@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T08:49:03.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="UNwV9h43bHQzdSYtyMxF" version="15.5.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-28T09:10:42.128Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="_xbOtU9Mn19WK9scORgd" version="15.5.6" type="github" pages="3">
   <diagram id="ucuf47rn4hHFeamfxZHP" name="对账模型">
     <mxGraphModel dx="2829" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -229,7 +229,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="A7sXLd5VSdtiiXB5vOug" name="对账流程">
-    <mxGraphModel dx="1547" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1787" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="vh0FaoTreXPwP_lNgPpI-0" />
         <mxCell id="vh0FaoTreXPwP_lNgPpI-1" parent="vh0FaoTreXPwP_lNgPpI-0" />
@@ -237,51 +237,51 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-0" value="平台数据拉取&amp;amp;清洗" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="170" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="40" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-1" target="TjuPf9bAg7yqMnMI0o1G-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-1" value="&lt;span&gt;三数据拉取/导入&amp;amp;清洗&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="560" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="TjuPf9bAg7yqMnMI0o1G-9" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-2" target="TjuPf9bAg7yqMnMI0o1G-8">
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-63" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-2" target="TjuPf9bAg7yqMnMI0o1G-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-2" value="生成标准平台账单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="170" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="120" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="TjuPf9bAg7yqMnMI0o1G-11" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-4" target="TjuPf9bAg7yqMnMI0o1G-10">
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-65" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-4" target="TjuPf9bAg7yqMnMI0o1G-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-4" value="&lt;span&gt;生成标准三方账单&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="560" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="120" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-6" value="" style="shape=link;html=1;rounded=0;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="60" y="280" as="sourcePoint" />
-            <mxPoint x="820" y="280" as="targetPoint" />
+            <mxPoint x="60" y="320" as="sourcePoint" />
+            <mxPoint x="1530" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TjuPf9bAg7yqMnMI0o1G-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-8" target="TjuPf9bAg7yqMnMI0o1G-14">
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-8" target="TjuPf9bAg7yqMnMI0o1G-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-8" value="加载账单到reids" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="170" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TjuPf9bAg7yqMnMI0o1G-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-10" target="TjuPf9bAg7yqMnMI0o1G-14">
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-10" target="TjuPf9bAg7yqMnMI0o1G-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-10" value="加载账单到reids" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="560" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-13" value="加载所有平台号到set集合，记为set&lt;br&gt;以平台号为key，金额等信息为value放入map" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="310" y="300" width="250" height="30" as="geometry" />
+          <mxGeometry x="310" y="460" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-20" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-14" target="TjuPf9bAg7yqMnMI0o1G-19">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="330" y="610" />
+              <mxPoint x="335" y="950" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -299,16 +299,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-14" value="通过两个set做交集和差集运算得到单号相同和单号差异的集合" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;align=left;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="354" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="354" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-18" value="加载历史差异账单到reids，平台，三方两个set" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="360" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-26" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-19" target="TjuPf9bAg7yqMnMI0o1G-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-19" value="从map中获取两边的金额比对" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="170" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="175" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-28" value="yes" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-25" target="TjuPf9bAg7yqMnMI0o1G-27">
           <mxGeometry relative="1" as="geometry" />
@@ -317,13 +317,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-25" value="一致？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;align=center;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="190" y="770" width="80" height="40" as="geometry" />
+          <mxGeometry x="195" y="1110" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-27" value="写入明细对平" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="350" y="760" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-29" value="写入明细错账" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="170" y="880" width="120" height="60" as="geometry" />
+          <mxGeometry x="175" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-34" value="平台" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-31" target="TjuPf9bAg7yqMnMI0o1G-33">
           <mxGeometry relative="1" as="geometry" />
@@ -332,27 +332,27 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-31" value="平台单边？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;align=center;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="580" y="650" width="80" height="80" as="geometry" />
+          <mxGeometry x="585" y="990" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-39" value="交集" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-33" target="TjuPf9bAg7yqMnMI0o1G-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-41" value="差集" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-33">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="940" y="760" as="targetPoint" />
+            <mxPoint x="945" y="1100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-33" value="与历史三方差异账单做交集和差集运算" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="740" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="745" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-35" value="与平台单边处理类似，只是写入的是平台单边" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="560" y="780" width="120" height="60" as="geometry" />
+          <mxGeometry x="565" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-43" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-38" target="TjuPf9bAg7yqMnMI0o1G-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-38" value="&lt;span style=&quot;text-align: left&quot;&gt;从map中获取两边的金额比对&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="940" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="945" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-45" value="yes" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-42" target="TjuPf9bAg7yqMnMI0o1G-44">
           <mxGeometry relative="1" as="geometry" />
@@ -361,30 +361,78 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-42" value="一致？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="1160" y="530" width="80" height="80" as="geometry" />
+          <mxGeometry x="1165" y="870" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-44" value="&lt;span&gt;写入明细对平&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="1140" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="1145" y="720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TjuPf9bAg7yqMnMI0o1G-46" value="为什么金额不一致不写？" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="1300" y="540" width="120" height="60" as="geometry" />
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-46" value="不做任何处理,处理单边时不产生金额不一致" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry x="1305" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-50" value="yes" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-48" target="TjuPf9bAg7yqMnMI0o1G-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-53" value="no" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-48">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="970" y="860" as="targetPoint" />
+            <mxPoint x="975" y="1200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-48" value="是否为新增平台单边" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="930" y="720" width="80" height="80" as="geometry" />
+          <mxGeometry x="935" y="1060" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-49" value="&lt;span&gt;写入明细平台单边&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="1090" y="730" width="120" height="60" as="geometry" />
+          <mxGeometry x="1095" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-54" value="不做任何处理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="910" y="860" width="120" height="60" as="geometry" />
+          <mxGeometry x="915" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-55" value="" style="shape=link;html=1;rounded=0;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="70" y="1330" as="sourcePoint" />
+            <mxPoint x="1540" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-58" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-56" target="TjuPf9bAg7yqMnMI0o1G-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-59" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-56" target="TjuPf9bAg7yqMnMI0o1G-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-56" value="通过三方和平台redis汇总出双方的总金额和总单数生成对账汇总数据" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;align=left;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry x="354" y="685" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-57" value="写入对账汇总表" style="whiteSpace=wrap;html=1;rounded=1;align=left;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry x="565" y="685" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-67" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-62" target="TjuPf9bAg7yqMnMI0o1G-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-62" value="写入平台数据reday标识，并通知下游流程启动" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry x="170" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-68" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-64" target="TjuPf9bAg7yqMnMI0o1G-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-64" value="&lt;span&gt;写入三方数据reday标识，并通知下游流程启动&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry x="560" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-69" value="yes" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-66" target="TjuPf9bAg7yqMnMI0o1G-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-70" value="yes" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-66" target="TjuPf9bAg7yqMnMI0o1G-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-71" value="yes" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-66" target="TjuPf9bAg7yqMnMI0o1G-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-73" value="no" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-66" target="TjuPf9bAg7yqMnMI0o1G-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-66" value="平台，三方数据reday？" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;align=center;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry x="380" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-72" value="退出" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry x="550" y="350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
