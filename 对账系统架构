@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T09:56:53.828Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="FUr2_Ys1LaGvuJqd1_Jr" version="15.5.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-28T10:05:47.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="3TuHrLOA2MhCjT5n5Unm" version="15.5.6" type="github" pages="4">
   <diagram id="ucuf47rn4hHFeamfxZHP" name="对账模型">
-    <mxGraphModel dx="2829" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2614" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -229,7 +229,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="A7sXLd5VSdtiiXB5vOug" name="对账流程【标准】">
-    <mxGraphModel dx="1787" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1547" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="vh0FaoTreXPwP_lNgPpI-0" />
         <mxCell id="vh0FaoTreXPwP_lNgPpI-1" parent="vh0FaoTreXPwP_lNgPpI-0" />
@@ -371,8 +371,8 @@
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-44" value="&lt;span&gt;写入明细对平&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
           <mxGeometry x="1352.27" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TjuPf9bAg7yqMnMI0o1G-46" value="不做任何处理,处理单边时不产生金额不一致" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="1512.27" y="860" width="120" height="60" as="geometry" />
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-46" value="不做任何处理，或者说不应该走到这里,因为都是新单号，能够走到上一步往往是日切问题导致的单边，如果真出现不一致，需要报警，可以在标准账单那里查看，这里不进入差异池了" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry x="1520" y="840" width="247.73" height="100" as="geometry" />
         </mxCell>
         <mxCell id="TjuPf9bAg7yqMnMI0o1G-50" value="yes" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="vh0FaoTreXPwP_lNgPpI-1" source="TjuPf9bAg7yqMnMI0o1G-48" target="TjuPf9bAg7yqMnMI0o1G-49">
           <mxGeometry relative="1" as="geometry" />
@@ -448,14 +448,14 @@
             <mxPoint x="740" y="1330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TjuPf9bAg7yqMnMI0o1G-77" value="&lt;h1&gt;滚动对账&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;align=center;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
-          <mxGeometry x="790" y="340" width="190" height="40" as="geometry" />
+        <mxCell id="TjuPf9bAg7yqMnMI0o1G-77" value="&lt;h1&gt;滚动对账&lt;/h1&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;我们认为不管正向还是逆向每一笔交易都是新的业务单号&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;align=center;" vertex="1" parent="vh0FaoTreXPwP_lNgPpI-1">
+          <mxGeometry x="790" y="340" width="190" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="对账流程【京东】" id="OJT7q6xzSILWQIK8uhIR">
-    <mxGraphModel dx="1787" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1547" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="N1KxwEdsiyuxxJDuKXub-0" />
         <mxCell id="N1KxwEdsiyuxxJDuKXub-1" parent="N1KxwEdsiyuxxJDuKXub-0" />
