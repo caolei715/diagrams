@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T11:20:41.943Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="H59_7RV9hqA0GXNimI2V" version="15.5.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-28T03:16:34.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="AXu5B3batR5Ip9gAEQik" version="15.5.6" type="github" pages="2">
   <diagram id="ucuf47rn4hHFeamfxZHP" name="Page-1">
-    <mxGraphModel dx="1865" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,7 +108,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CKciiGd7EpX8c7owXSPt" name="Page-2">
-    <mxGraphModel dx="1038" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="V1qWw7g5TfjzCA8pFaqC-0" />
         <mxCell id="V1qWw7g5TfjzCA8pFaqC-1" parent="V1qWw7g5TfjzCA8pFaqC-0" />
@@ -144,7 +144,7 @@
           <mxGeometry x="130" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V1qWw7g5TfjzCA8pFaqC-13" value="&lt;h1&gt;平台销售订单拉取逻辑&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;" vertex="1" parent="V1qWw7g5TfjzCA8pFaqC-1">
-          <mxGeometry x="90" y="40" width="250" height="120" as="geometry" />
+          <mxGeometry x="90" y="40" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="V1qWw7g5TfjzCA8pFaqC-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="V1qWw7g5TfjzCA8pFaqC-1">
           <mxGeometry x="430" y="10" width="390" height="600" as="geometry" />
@@ -182,6 +182,12 @@
         </mxCell>
         <mxCell id="V1qWw7g5TfjzCA8pFaqC-24" value="&lt;font color=&quot;#000000&quot;&gt;根据订单号汇总金额，并使用最大自增id做为防重标识&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#FF3333;" vertex="1" parent="V1qWw7g5TfjzCA8pFaqC-1">
           <mxGeometry x="540" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KY15zDc5JLeLIxdj6WDA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="V1qWw7g5TfjzCA8pFaqC-1" source="KY15zDc5JLeLIxdj6WDA-0" target="V1qWw7g5TfjzCA8pFaqC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KY15zDc5JLeLIxdj6WDA-0" value="除82，85，86状态其余都拉取" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="V1qWw7g5TfjzCA8pFaqC-1">
+          <mxGeometry x="-120" y="70" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
