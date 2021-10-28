@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T03:16:34.373Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="AXu5B3batR5Ip9gAEQik" version="15.5.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-28T06:42:26.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="IUBtx5x-sMY2q42ASjVr" version="15.5.6" type="github" pages="2">
   <diagram id="ucuf47rn4hHFeamfxZHP" name="Page-1">
     <mxGraphModel dx="2377" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -178,7 +178,7 @@
           <mxGeometry x="540" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V1qWw7g5TfjzCA8pFaqC-23" value="&lt;h1&gt;平台售后单拉取逻辑&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;" vertex="1" parent="V1qWw7g5TfjzCA8pFaqC-1">
-          <mxGeometry x="505" y="20" width="240" height="120" as="geometry" />
+          <mxGeometry x="505" y="20" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="V1qWw7g5TfjzCA8pFaqC-24" value="&lt;font color=&quot;#000000&quot;&gt;根据订单号汇总金额，并使用最大自增id做为防重标识&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#FF3333;" vertex="1" parent="V1qWw7g5TfjzCA8pFaqC-1">
           <mxGeometry x="540" y="230" width="120" height="60" as="geometry" />
@@ -188,6 +188,14 @@
         </mxCell>
         <mxCell id="KY15zDc5JLeLIxdj6WDA-0" value="除82，85，86状态其余都拉取" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="V1qWw7g5TfjzCA8pFaqC-1">
           <mxGeometry x="-120" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KY15zDc5JLeLIxdj6WDA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="V1qWw7g5TfjzCA8pFaqC-1" source="KY15zDc5JLeLIxdj6WDA-2" target="V1qWw7g5TfjzCA8pFaqC-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KY15zDc5JLeLIxdj6WDA-2" value="需分析都拉取那些状态的售后单" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="V1qWw7g5TfjzCA8pFaqC-1">
+          <mxGeometry x="920" y="70" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
