@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-29T03:22:42.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="cC7VTVrk6eL9cROj_046" version="15.5.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-29T03:31:43.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="uIZpn4dCER2JW7ABXcw1" version="15.5.6" type="github" pages="4">
   <diagram id="ucuf47rn4hHFeamfxZHP" name="对账模型">
     <mxGraphModel dx="2374" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,7 +136,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CKciiGd7EpX8c7owXSPt" name="账单取数逻辑">
-    <mxGraphModel dx="2374" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2614" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="V1qWw7g5TfjzCA8pFaqC-0" />
         <mxCell id="V1qWw7g5TfjzCA8pFaqC-1" parent="V1qWw7g5TfjzCA8pFaqC-0" />
@@ -222,7 +222,7 @@
             <mxPoint x="1100" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KY15zDc5JLeLIxdj6WDA-2" value="需分析都拉取那些状态的售后单" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="V1qWw7g5TfjzCA8pFaqC-1">
+        <mxCell id="KY15zDc5JLeLIxdj6WDA-2" value="需分析都拉取那些状态的售后单？" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="V1qWw7g5TfjzCA8pFaqC-1">
           <mxGeometry x="920" y="70" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
@@ -573,7 +573,7 @@
         <mxCell id="N1KxwEdsiyuxxJDuKXub-27" value="写入明细对平" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
           <mxGeometry x="380" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N1KxwEdsiyuxxJDuKXub-28" value="通过逐条汇总差异池的数据核对" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
+        <mxCell id="N1KxwEdsiyuxxJDuKXub-28" value="加载所有差异再次比对" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
           <mxGeometry x="175" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N1KxwEdsiyuxxJDuKXub-29" value="平台" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="N1KxwEdsiyuxxJDuKXub-31" target="N1KxwEdsiyuxxJDuKXub-34">
@@ -709,7 +709,7 @@
           <mxGeometry x="790" y="340" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jqZL71ooTwniAat9-GYG-0" value="更新标准账单为已核对" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF3333;align=left;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
-          <mxGeometry x="680" y="1340" width="130" height="60" as="geometry" />
+          <mxGeometry x="680" y="1360" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7ptpgzpwwOPFpNFntrqr-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF3333;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="mbIL7LEl2hRPX14TXV64-0" target="jqZL71ooTwniAat9-GYG-0">
           <mxGeometry relative="1" as="geometry" />
