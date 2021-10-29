@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-29T01:44:58.126Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="66Zyov8HGmy-cZsZ7_ls" version="15.5.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-29T02:19:37.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="CZrbeSURyFQ-4M4y519s" version="15.5.6" type="github" pages="5">
   <diagram id="ucuf47rn4hHFeamfxZHP" name="对账模型">
     <mxGraphModel dx="2374" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -229,7 +229,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="A7sXLd5VSdtiiXB5vOug" name="对账流程【标准】">
-    <mxGraphModel dx="1547" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1787" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="vh0FaoTreXPwP_lNgPpI-0" />
         <mxCell id="vh0FaoTreXPwP_lNgPpI-1" parent="vh0FaoTreXPwP_lNgPpI-0" />
@@ -477,7 +477,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="对账流程【京东】" id="OJT7q6xzSILWQIK8uhIR">
-    <mxGraphModel dx="1547" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1787" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="N1KxwEdsiyuxxJDuKXub-0" />
         <mxCell id="N1KxwEdsiyuxxJDuKXub-1" parent="N1KxwEdsiyuxxJDuKXub-0" />
@@ -549,7 +549,7 @@
         <mxCell id="N1KxwEdsiyuxxJDuKXub-20" value="通过两个set做交集和差集运算得到单号相同和单号差异的集合" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;align=left;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
           <mxGeometry x="354" y="850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N1KxwEdsiyuxxJDuKXub-21" value="加载历史差异账单到reids，平台，三方两个set" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
+        <mxCell id="N1KxwEdsiyuxxJDuKXub-21" value="加载平台、三方历史差异账单到reids" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
           <mxGeometry x="360" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N1KxwEdsiyuxxJDuKXub-22" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="N1KxwEdsiyuxxJDuKXub-23" target="N1KxwEdsiyuxxJDuKXub-26">
@@ -574,6 +574,9 @@
           <mxGeometry x="380" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jqZL71ooTwniAat9-GYG-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF3333;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="N1KxwEdsiyuxxJDuKXub-28" target="N1KxwEdsiyuxxJDuKXub-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4jkc2EhfWlAOBLXQouu-1" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="N1KxwEdsiyuxxJDuKXub-28" target="A4jkc2EhfWlAOBLXQouu-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N1KxwEdsiyuxxJDuKXub-28" value="写入明细错账，同时写入差异池" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
@@ -656,8 +659,8 @@
         </mxCell>
         <mxCell id="N1KxwEdsiyuxxJDuKXub-49" value="" style="shape=link;html=1;rounded=0;fontColor=#000000;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="90" y="1510" as="sourcePoint" />
-            <mxPoint x="1560" y="1510" as="targetPoint" />
+            <mxPoint x="105" y="1800" as="sourcePoint" />
+            <mxPoint x="1575" y="1800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="N1KxwEdsiyuxxJDuKXub-50" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="N1KxwEdsiyuxxJDuKXub-52" target="N1KxwEdsiyuxxJDuKXub-53">
@@ -717,6 +720,36 @@
         <mxCell id="mbIL7LEl2hRPX14TXV64-0" value="更新差异池为日切对平，此处更新的可能是多条" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
           <mxGeometry x="1152.27" y="560" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="A4jkc2EhfWlAOBLXQouu-3" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="A4jkc2EhfWlAOBLXQouu-0" target="A4jkc2EhfWlAOBLXQouu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4jkc2EhfWlAOBLXQouu-0" value="&lt;span&gt;与历史差异账单汇总，再次比对，三方，平台分别汇总&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
+          <mxGeometry x="175" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A4jkc2EhfWlAOBLXQouu-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF3333;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="A4jkc2EhfWlAOBLXQouu-2" target="N1KxwEdsiyuxxJDuKXub-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A4jkc2EhfWlAOBLXQouu-5" value="本次，历史差异明细都写入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="A4jkc2EhfWlAOBLXQouu-4">
+          <mxGeometry x="0.2351" y="14" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4jkc2EhfWlAOBLXQouu-6" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="A4jkc2EhfWlAOBLXQouu-4">
+          <mxGeometry x="-0.0714" y="48" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A4jkc2EhfWlAOBLXQouu-2" value="一致？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
+          <mxGeometry x="195" y="1490" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Yz6R1Wj3fELeTBIc3jVH" name="Page-5">
+    <mxGraphModel dx="1547" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="OCYuGjcqHPl9oNLQj17T-0" />
+        <mxCell id="OCYuGjcqHPl9oNLQj17T-1" parent="OCYuGjcqHPl9oNLQj17T-0" />
       </root>
     </mxGraphModel>
   </diagram>
