@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-29T03:41:28.967Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="YD9h4CQxqSMIeUJlBEG8" version="15.5.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-29T03:58:56.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="j7X0N_Vlyo29AFJUJIWh" version="15.5.6" type="github" pages="4">
   <diagram id="ucuf47rn4hHFeamfxZHP" name="对账模型">
     <mxGraphModel dx="2374" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -573,7 +573,7 @@
         <mxCell id="N1KxwEdsiyuxxJDuKXub-27" value="写入明细对平" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
           <mxGeometry x="480" y="1070" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N1KxwEdsiyuxxJDuKXub-28" value="加载所有差异再次比对" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
+        <mxCell id="N1KxwEdsiyuxxJDuKXub-28" value="分别加载双方所有差异并与当次汇总后再次比对" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
           <mxGeometry x="275" y="1190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="N1KxwEdsiyuxxJDuKXub-29" value="平台" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="N1KxwEdsiyuxxJDuKXub-31" target="N1KxwEdsiyuxxJDuKXub-34">
@@ -645,6 +645,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="jM5r7FwGXqVCJiK7euSW-6" value="双方状态为单边&lt;br&gt;不更新对账批次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="jqZL71ooTwniAat9-GYG-4">
+          <mxGeometry x="-0.6153" y="-50" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="N1KxwEdsiyuxxJDuKXub-47" value="&lt;span&gt;写入明细平台单边，同时写入差异池&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
           <mxGeometry x="1420" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
@@ -708,14 +713,19 @@
         <mxCell id="N1KxwEdsiyuxxJDuKXub-66" value="&lt;h1&gt;滚动对账-资金对账&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;align=center;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
           <mxGeometry x="890" y="310" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jqZL71ooTwniAat9-GYG-0" value="更新标准账单为已核对" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF3333;align=left;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
+        <mxCell id="jqZL71ooTwniAat9-GYG-0" value="更新标准账单" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF3333;align=left;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
           <mxGeometry x="780" y="1330" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7ptpgzpwwOPFpNFntrqr-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF3333;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="mbIL7LEl2hRPX14TXV64-0" target="jqZL71ooTwniAat9-GYG-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="jM5r7FwGXqVCJiK7euSW-5" value="更新当次账单为对平&lt;br&gt;更新历史账单为日切对平" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="7ptpgzpwwOPFpNFntrqr-6">
+          <mxGeometry x="-0.1635" y="116" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mbIL7LEl2hRPX14TXV64-0" value="更新差异池为日切对平，此处更新的可能是多条" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
-          <mxGeometry x="1252.27" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="1181" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A4jkc2EhfWlAOBLXQouu-3" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" target="A4jkc2EhfWlAOBLXQouu-2">
           <mxGeometry relative="1" as="geometry">
@@ -746,11 +756,13 @@
         <mxCell id="7ptpgzpwwOPFpNFntrqr-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF3333;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="7ptpgzpwwOPFpNFntrqr-3" target="jqZL71ooTwniAat9-GYG-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="jM5r7FwGXqVCJiK7euSW-2" value="更新当次账单为对平&lt;br&gt;更新历史账单为日切对平" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="7ptpgzpwwOPFpNFntrqr-7">
+          <mxGeometry x="-0.1703" y="61" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7ptpgzpwwOPFpNFntrqr-3" value="更新差异池为日切对平，此处更新的可能是多条" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
           <mxGeometry x="275" y="1664" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7ptpgzpwwOPFpNFntrqr-5" value="此处也是双向核对" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
-          <mxGeometry x="150" y="990" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7ptpgzpwwOPFpNFntrqr-13" value="yes" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="7ptpgzpwwOPFpNFntrqr-10" target="7ptpgzpwwOPFpNFntrqr-12">
           <mxGeometry relative="1" as="geometry" />
@@ -759,16 +771,27 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7ptpgzpwwOPFpNFntrqr-10" value="是否新增差异" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
-          <mxGeometry x="455" y="1320" width="80" height="80" as="geometry" />
+          <mxGeometry x="434" y="1320" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d7dLMoWxXRQFJcTuGxwr-0" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF3333;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="7ptpgzpwwOPFpNFntrqr-12" target="jqZL71ooTwniAat9-GYG-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="jM5r7FwGXqVCJiK7euSW-4" value="双方状态为错账&lt;br&gt;不更新对账批次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="d7dLMoWxXRQFJcTuGxwr-0">
+          <mxGeometry x="-0.1848" y="1" relative="1" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7ptpgzpwwOPFpNFntrqr-12" value="写入明细错账，同时写入差异池" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
-          <mxGeometry x="595" y="1330" width="120" height="60" as="geometry" />
+          <mxGeometry x="565" y="1335" width="95" height="50" as="geometry" />
         </mxCell>
         <mxCell id="d7dLMoWxXRQFJcTuGxwr-1" value="不做任何处理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
-          <mxGeometry x="435" y="1460" width="120" height="60" as="geometry" />
+          <mxGeometry x="414" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jM5r7FwGXqVCJiK7euSW-0" value="这里写入的明细，三方和平台金额是&lt;br&gt;包含了差异池数据的" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
+          <mxGeometry x="60" y="1475" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jM5r7FwGXqVCJiK7euSW-1" value="将差异池的三方，平台金额和单量&lt;br&gt;增量到之前的汇总数据" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
+          <mxGeometry x="60" y="1575" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
