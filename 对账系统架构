@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T12:07:29.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="FpyDSpjqNZCBfTOjaeGW" version="15.6.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-01T12:12:16.932Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="4rKwQPTTgqI8isGlL8Wi" version="15.6.3" type="github" pages="4">
   <diagram id="ucuf47rn4hHFeamfxZHP" name="对账模型">
     <mxGraphModel dx="1762" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -507,10 +507,8 @@
         <mxCell id="N1KxwEdsiyuxxJDuKXub-38" value="yes" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="N1KxwEdsiyuxxJDuKXub-1" source="N1KxwEdsiyuxxJDuKXub-40" target="N1KxwEdsiyuxxJDuKXub-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LQr_x0nV5bYWpLYIs25t-1" value="no" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="N1KxwEdsiyuxxJDuKXub-1" source="N1KxwEdsiyuxxJDuKXub-40" target="N1KxwEdsiyuxxJDuKXub-46" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1612.27" y="860" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="9VMfMatIONuxgc6vIDwm-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="N1KxwEdsiyuxxJDuKXub-40" target="9VMfMatIONuxgc6vIDwm-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="N1KxwEdsiyuxxJDuKXub-40" value="一致？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="N1KxwEdsiyuxxJDuKXub-1" vertex="1">
           <mxGeometry x="1472.27" y="820" width="80" height="80" as="geometry" />
@@ -645,8 +643,8 @@
             <mxPoint x="395" y="1694" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jM5r7FwGXqVCJiK7euSW-2" value="更新当次账单为对平&lt;br&gt;更新历史账单为日切对平" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" parent="7ptpgzpwwOPFpNFntrqr-7" vertex="1" connectable="0">
-          <mxGeometry x="-0.1703" y="61" relative="1" as="geometry">
+        <mxCell id="9VMfMatIONuxgc6vIDwm-12" value="更新当次账单为对平&lt;br&gt;更新历史账单为日切对平" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="7ptpgzpwwOPFpNFntrqr-7">
+          <mxGeometry x="0.02" y="17" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -679,6 +677,52 @@
         </mxCell>
         <mxCell id="jM5r7FwGXqVCJiK7euSW-1" value="将历史差异的三方和平台金额，单量&lt;br&gt;增量到之前的汇总数据" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="N1KxwEdsiyuxxJDuKXub-1" vertex="1">
           <mxGeometry x="60" y="1575" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9VMfMatIONuxgc6vIDwm-10" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="9VMfMatIONuxgc6vIDwm-2" target="9VMfMatIONuxgc6vIDwm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9VMfMatIONuxgc6vIDwm-2" value="&lt;span&gt;分别加载双方所有差异并与当次汇总后再次比对&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
+          <mxGeometry x="1612.27" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9VMfMatIONuxgc6vIDwm-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="9VMfMatIONuxgc6vIDwm-4" target="9VMfMatIONuxgc6vIDwm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9VMfMatIONuxgc6vIDwm-4" value="写入明细日切对平" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
+          <mxGeometry x="1790" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9VMfMatIONuxgc6vIDwm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FF3333;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="9VMfMatIONuxgc6vIDwm-5" target="jqZL71ooTwniAat9-GYG-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1860" y="1140" />
+              <mxPoint x="1860" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9VMfMatIONuxgc6vIDwm-13" value="更新当次账单为对平&lt;br&gt;更新历史账单为日切对平" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="9VMfMatIONuxgc6vIDwm-8">
+          <mxGeometry x="-0.1942" y="-49" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9VMfMatIONuxgc6vIDwm-15" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="9VMfMatIONuxgc6vIDwm-8">
+          <mxGeometry x="-0.4044" y="-42" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9VMfMatIONuxgc6vIDwm-5" value="更新汇总数据的三方单量和三方金额" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
+          <mxGeometry x="1790" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9VMfMatIONuxgc6vIDwm-11" value="yes" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="9VMfMatIONuxgc6vIDwm-9" target="9VMfMatIONuxgc6vIDwm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9VMfMatIONuxgc6vIDwm-14" value="no" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF3333;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="N1KxwEdsiyuxxJDuKXub-1" source="9VMfMatIONuxgc6vIDwm-9" target="N1KxwEdsiyuxxJDuKXub-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1282" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9VMfMatIONuxgc6vIDwm-9" value="一致？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="N1KxwEdsiyuxxJDuKXub-1">
+          <mxGeometry x="1632.27" y="950" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
