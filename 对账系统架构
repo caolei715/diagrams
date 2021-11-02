@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T06:32:26.768Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Z-XGAH0VUe-Eq4KsU2c1" version="15.6.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-02T06:42:32.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="j8gpXBQ88VaSKWubfOtc" version="15.6.3" type="github" pages="4">
   <diagram id="ucuf47rn4hHFeamfxZHP" name="对账模型">
     <mxGraphModel dx="1762" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -361,7 +361,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="对账流程【京东】" id="OJT7q6xzSILWQIK8uhIR">
-    <mxGraphModel dx="1762" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2002" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="N1KxwEdsiyuxxJDuKXub-0" />
         <mxCell id="N1KxwEdsiyuxxJDuKXub-1" parent="N1KxwEdsiyuxxJDuKXub-0" />
@@ -407,8 +407,8 @@
         <mxCell id="N1KxwEdsiyuxxJDuKXub-14" value="加载三方账单到reids" style="whiteSpace=wrap;html=1;rounded=1;" parent="N1KxwEdsiyuxxJDuKXub-1" vertex="1">
           <mxGeometry x="660" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="N1KxwEdsiyuxxJDuKXub-15" value="1.加载所有平台号到set集合，记为set&lt;br&gt;2.以平台号为key，金额等信息为value放入map，&lt;br&gt;与标准流程不同这里可能存在多个相同key,此时将金额汇总&lt;br&gt;3.将汇总单号包含的记录id放入redis,以备更新标准账单&lt;br&gt;4.将差异明细放入redis,单号为key,所有单号汇总值做为value&lt;br&gt;5.将异常key汇总时包含的id放入redis,key为单号，所有id的list为value" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="N1KxwEdsiyuxxJDuKXub-1" vertex="1">
-          <mxGeometry x="34" y="340" width="380" height="90" as="geometry" />
+        <mxCell id="N1KxwEdsiyuxxJDuKXub-15" value="1.以【平台单号-业务类型】为key,加载数据到set集合&lt;br&gt;2.以【平台单号】为key，金额等信息为value放入map，&lt;br&gt;与标准流程不同这里可能存在多个相同key,此时将金额汇总&lt;br&gt;3.将setp2汇总单号包含的记录id放入redis,以备更新标准账单&lt;br&gt;4.将差异明细以setp1、2、3方式存入redis" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="N1KxwEdsiyuxxJDuKXub-1" vertex="1">
+          <mxGeometry x="10" y="420" width="330" height="70" as="geometry" />
         </mxCell>
         <mxCell id="N1KxwEdsiyuxxJDuKXub-16" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="N1KxwEdsiyuxxJDuKXub-1" source="N1KxwEdsiyuxxJDuKXub-20" target="N1KxwEdsiyuxxJDuKXub-23" edge="1">
           <mxGeometry relative="1" as="geometry">
