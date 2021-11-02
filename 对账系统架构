@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T12:13:16.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="9_FG8vCH2FCGTgifwsfu" version="15.6.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-02T03:12:36.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="n8YFsUNKXI01DDNB43WU" version="15.6.3" type="github" pages="4">
   <diagram id="ucuf47rn4hHFeamfxZHP" name="对账模型">
     <mxGraphModel dx="1762" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,24 +24,24 @@
         <mxCell id="ZNX6UTNXjEtMFALX60S7-2" value="三方数据" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZNX6UTNXjEtMFALX60S7-8" value="其它供应商我方销售数据源" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ZNX6UTNXjEtMFALX60S7-3" edge="1">
+        <mxCell id="ZNX6UTNXjEtMFALX60S7-8" value="销售数据源" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ZNX6UTNXjEtMFALX60S7-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="496" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZNX6UTNXjEtMFALX60S7-3" value="平台订单表" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="356" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="414" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZNX6UTNXjEtMFALX60S7-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZNX6UTNXjEtMFALX60S7-4" target="ZNX6UTNXjEtMFALX60S7-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZNX6UTNXjEtMFALX60S7-11" value="所有供应商我方售后数据源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZNX6UTNXjEtMFALX60S7-9" vertex="1" connectable="0">
+        <mxCell id="ZNX6UTNXjEtMFALX60S7-11" value="售后数据源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZNX6UTNXjEtMFALX60S7-9" vertex="1" connectable="0">
           <mxGeometry x="-0.4722" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZNX6UTNXjEtMFALX60S7-4" value="平台售后表" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="526" y="110" width="120" height="60" as="geometry" />
+          <mxGeometry x="620" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZNX6UTNXjEtMFALX60S7-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZNX6UTNXjEtMFALX60S7-5" target="ZNX6UTNXjEtMFALX60S7-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -50,19 +50,6 @@
         </mxCell>
         <mxCell id="ZNX6UTNXjEtMFALX60S7-5" value="京东余额变更明细" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="230" width="120" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ZNX6UTNXjEtMFALX60S7-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZNX6UTNXjEtMFALX60S7-6" target="ZNX6UTNXjEtMFALX60S7-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="496" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZNX6UTNXjEtMFALX60S7-12" value="京东我方销售数据源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZNX6UTNXjEtMFALX60S7-10" vertex="1" connectable="0">
-          <mxGeometry x="-0.6011" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZNX6UTNXjEtMFALX60S7-6" value="平台供应商订单表" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="700" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZNX6UTNXjEtMFALX60S7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;dashed=1;" parent="1" source="ZNX6UTNXjEtMFALX60S7-7" target="ZNX6UTNXjEtMFALX60S7-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -723,7 +710,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CKciiGd7EpX8c7owXSPt" name="京东账单取数逻辑">
-    <mxGraphModel dx="2317" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2589" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="V1qWw7g5TfjzCA8pFaqC-0" />
         <mxCell id="V1qWw7g5TfjzCA8pFaqC-1" parent="V1qWw7g5TfjzCA8pFaqC-0" />
